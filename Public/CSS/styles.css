@@ -233,11 +233,17 @@ Adapted from Simon Codrington: https://codepen.io/simoncodrington/pen/Mwgqqd*/
   color: grey;
   padding: 5% 0 5% 0;
 }
-
-.icons-media {
+#footer a{
+  color: grey !important;
+}
+.icons-container{
+ margin: auto;
+  padding: 2%;
   width: 10%;
-  margin: auto;
-  padding-bottom: 2%;
+}
+.icons-media {
+  padding: 5%;
+  font-size: 1.5em;
 }
 .row{
   width: 100%;
@@ -349,6 +355,18 @@ Adapted from Simon Codrington: https://codepen.io/simoncodrington/pen/Mwgqqd*/
   border-width: 2px;
   border-color: black;
 }
+
+
+/* contact page styling */
+.contact-text{
+  font-size: 2em;
+  text-align: center;
+}
+.contact-text a{
+  color: black;
+}
+
+
 
 /* responsive */
 @media (max-width: 768px) {
