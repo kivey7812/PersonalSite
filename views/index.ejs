@@ -1,0 +1,121 @@
+<%- include("Partials/Header"); -%>
+
+
+
+  <!-- Profile area -->
+  <div class="profile-content">
+      <div class="scroll-element slide-left">
+        <img id="profileIMG" src="https://i.ibb.co/ZT7n1vB/circle-profile-pic-removebg.png" alt="circle-profile-pic-removebg" border="0">
+        <h1>Kirsten Ivey</h1>
+        <h2>Math Teacher turned Software Developer</h2>
+      </div>
+  </div>
+
+  <!-- carousel home content section -->
+  <div class="carousel-content row col-lg-6 col-md-8 col-sm-10 container-fluid">
+    <div class="sectiontitle">
+      <h1 class="title-section">What I offer</h1>
+    </div>
+    <!-- removed autoplay. to re-add, add option: data-bs-interval="4000" -->
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" data-bs-pause="hover" >
+      <!-- the indicator at the bottom -->
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+      </div>
+      <!-- items in the carousel -->
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <h2 class="carousel-text-title">Languages + Skills </h2>
+          <p class="carousel-text">Comfortable with Javascript, Python, HTML, CSS. Some experience with NoSQL DB's.</p>
+          <div class="carousel-icon-container d-flex justify-content-between">
+            <i class="car-icons fab fa-python"></i>
+            <i class="car-icons fab fa-js-square"></i>
+            <i class="car-icons fab fa-html5"></i>
+            <i class="car-icons fab fa-css3-alt"></i>
+          </div>
+          <p class="carousel-text">See my full list of skills <a class="carousel-link" href="/skills">here.</a></p>
+        </div>
+        <div class="carousel-item">
+          <h2 class="carousel-text-title">Analytical Problem Solver</h2>
+          <p class="carousel-text">My BS in Applied Mathematics and my years of teaching Math make me an asset on any team! I love logical puzzles and tackling challenges!</p>
+          <p class="carousel-text">Find out more about my <a class="carousel-link" href="/education">education</a> and <a class="carousel-link" href="/about">background</a></p>
+          <img class="carousel-img" src="images/lady-img.jpg" alt="">
+
+        </div>
+        <div class="carousel-item">
+          <h2 class="carousel-text-title">Fast Independent Learner</h2>
+          <p class="carousel-text">New to the industry, but motivated and highly capable! I have always been an over-achiever, top-of-my-class type. Whatever technical skills I currently lack, I can and will learn.  </p>
+          <img class="carousel-img" src="images/dog-img.jpg" alt="">
+        </div>
+        <div class="carousel-item">
+          <h2 class="carousel-text-title">Excellent Communicator</h2>
+          <p class="carousel-text-small"> My background as a high school teacher gives me an edge in that I had
+            to learn how to communicate with all types of people. I know how to both listen and speak up so that
+            my team collaborates most effectively. My career in teaching also fine tuned my ability to take complex, abstract concepts and distill them
+              into something understandable/relatable.</p>
+          <img class="carousel-img" src="images/dog-img.jpg" alt="">
+        </div>
+      </div>
+      <!-- the left and right buttons -->
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+
+
+<!-- bottom section -->
+
+  <div class="bottom-content align-items-center">
+
+      <br>
+      <div class="sectiontitle">
+        <h1 class="title-section">more</h1>
+      </div>
+      <br>
+      <div class="more-text">
+        <p>Kirsten Ivey was raised in San Diego, CA in a large,
+          Peruvian family. She graduated Summa Cum Laude with a BS in Applied
+          Mathematics from San Diego State University and a Master's in Education
+        from Colorado State University. She has worked as a high school math
+      teacher in the Seattle area for the last 8 years and is now ready for the next adventure.</p>
+
+      </div>
+      <br>
+      <div class="row row-link">
+        <img class="blue-circle" src="https://i.ibb.co/9H9JCP4/blue-circle.png" alt="">
+        <h2 class="page-titles"><a class="page-links" href="/about">about</a></h2>
+      </div>
+
+      <div class="row row-link">
+        <img class="blue-circle" src="https://i.ibb.co/9H9JCP4/blue-circle.png" alt="">
+        <h2 class="page-titles"><a class="page-links" href="/education">education</a></h2>
+      </div>
+
+      <div class="row row-link">
+        <img class="blue-circle" src="https://i.ibb.co/9H9JCP4/blue-circle.png" alt="">
+        <h2 class="page-titles"><a class="page-links" href="/skills">skills</a></h2>
+      </div>
+
+      <div class="row row-link">
+        <img class="blue-circle" src="https://i.ibb.co/9H9JCP4/blue-circle.png" alt="">
+        <h2 class="page-titles"><a class="page-links" href="/projects">projects</a></h2>
+      </div>
+
+      <div class="row row-link">
+        <img class="blue-circle" src="https://i.ibb.co/9H9JCP4/blue-circle.png" alt="">
+        <h2 class="page-titles"><a class="page-links" href="/contact">contact</a></h2>
+      </div>
+  </div>
+
+
+<%- include("Partials/Footer"); -%>

@@ -1,0 +1,108 @@
+<%- include("Partials/Header"); -%>
+
+<br>
+<h1 class="pagetitle">Education</h1>
+<br>
+<div class="row row-link">
+  <img class="blue-circle" src="https://i.ibb.co/9H9JCP4/blue-circle.png" alt="">
+  <!-- <h2 id="bs-button" class="page-titles"> B.S. Applied Mathematics</h2> -->
+  <h2 class="page-titles"><button id="bs-button" class="page-links" > B.S. Applied Mathematics</button></h2>
+</div>
+<div id="bs-text" class="page-text">
+  <ul>
+    <li>San Diego State University, 2011</li>
+    <li>GPA: 3.89</li>
+    <li>Honors:</li>
+    <ul>
+      <li>Summa Cum Laude</li>
+      <li>
+        Distinguished Student in Mathematics 2011. Honor given by the Math Department.
+      </li>
+      <li>
+        Dean's List continuously Fall 2007 through Spring 2011
+      </li>
+      <li>
+        McNair Scholar 2009 - 2011
+      </li>
+    </ul>
+  </ul>
+</div>
+
+<div class="row row-link">
+  <img class="blue-circle" src="Images/blue-circle.png" alt="">
+  <h2 class="page-titles"><button id="masters-button" class="page-links" > Masters in Education</button></h2>
+</div>
+<div id="masters-text" class="page-text">
+  <ul>
+    <li>Colorado State University, 2013</li>
+    <li>GPA: 4.00</li>
+    <li>
+      Honors:
+      </li>
+    <ul>
+      <li>Summa Cum Laude</li>
+    </ul>
+  </ul>
+</div>
+
+
+<div class="row row-link">
+  <img class="blue-circle" src="https://i.ibb.co/9H9JCP4/blue-circle.png" alt="">
+  <h2 class="page-titles"><button id="mooc-button" class="page-links" > Online Courses I've Taken</button></h2>
+</div>
+<div id="mooc-text" class="page-text">
+  <p class="course-title">Course Title: Harvard CS50's Introduction to Computer Science </p>
+  <ul>
+    <li><a class="page-links" href="https://learning.edx.org/course/course-v1:HarvardX+CS50+X/home">Link</a> to the course</li>
+    <li>topics covered:</li>
+    <ul>
+      <li>Data Structures, algorithms, memory management in C and Python</li>
+      <li>SQL and some intro Web Dev: HTML, CSS, JS</li>
+    </ul>
+  </ul>
+
+  <p class="course-title">Course Title: 2021 Complete Python Bootcamp </p>
+  <ul>
+    <li><a class="page-links" href="https://www.udemy.com/course/complete-python-bootcamp/">Link</a> to the course</li>
+    <li>topics covered:</li>
+    <ul>
+      <li>Python specific: Data structures, methods, functions, list comprehensions, decorators </li>
+      <li>Object Oriented Programming</li>
+      <li>Working with packages</li>
+      <li>Errors and exception handling</li>
+    </ul>
+  </ul>
+
+  <p class="course-title">Course Title: The Complete 2021 Web Development Bootcamp </p>
+  <ul>
+    <li><a class="page-links" href="https://www.udemy.com/course/the-complete-web-development-bootcamp/">Link</a> to the course</li>
+    <li>topics covered:</li>
+    <ul>
+      <li> HTML, CSS, JS and the DOM model </li>
+      <li> Working with the UNIX command line</li>
+      <li> GitHub and version control</li>
+      <li> Adding external CSS functionality with frameworks like Bootstrap</li>
+      <li> jQuery for writing consice js code</li>
+      <li> Node.js, NPM, server-side js, modules, native node drivers </li>
+      <li> Using Express in Node applications, RESTful API routing with Express</li>
+      <li> Working with API's and creating RESTful API's</li>
+      <li> Using EJS templating, creating layouts/partials</li>
+      <li> Database fundamentals, data relationships. Some SQL but primarily worked with NoSQL MongoDB and Mongoose</li>
+      <li> Deploying server based applications with Heroku</li>
+      <li> Deploying Databases with Mongo Atlas</li>
+      <li> Front end web dev with React.js</li>
+    </ul>
+  </ul>
+</div>
+
+
+<script>
+  $("#bs-button").click(function() {
+    $("#bs-text").toggle("slow");
+  });
+</script>
+
+
+
+
+<%- include("Partials/Footer"); -%>

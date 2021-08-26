@@ -1,0 +1,139 @@
+<%- include("Partials/Header"); -%>
+
+<h1 class="pagetitle">Projects</h1>
+<br>
+
+<div class="toggle-buttons">
+  <div class="numbers-container d-flex justify-content-around">
+    <div id="proj-button-1" class="proj-numbers">1</div>
+    <div id="proj-button-2" class="proj-numbers">2</div>
+    <div id="proj-button-3" class="proj-numbers">3</div>
+    <div id="proj-button-4" class="proj-numbers">4</div>
+  </div>
+  <!-- <div class="numbers-container d-flex justify-content-around">
+    <div id="proj-button-5" class="proj-numbers">5</div>
+    <div id="proj-button-6" class="proj-numbers">6</div>
+    <div id="proj-button-7" class="proj-numbers">7</div>
+  </div> -->
+</div>
+<div id="proj-content-1" class="page-text proj-text">
+  <h1>This portfolio site!</h1>
+  <div class="container">
+    <img class="proj-images" src="images/proj1-personal-site.png" alt="">
+    <div class="proj-text col-sm col-lg">
+      <h2>Description:</h2>
+      <p>
+        Multipage, responsive website deployed on a cloud server.
+        This page was built using a combination of pre-made and custom HTML/CSS.
+      </p>
+      <h2>Languages and Technologies Used:</h2>
+      <ul>
+        <li>Javascript (and JQuery), HTML, CSS</li>
+        <li>Bootstrap to utilize Navbar, some grid utilities, and Carousel on front page</li>
+        <li>Set up using Node.js, express, and EJS templating</li>
+        <li>Combined some responsive features of Bootstrap with my own custom CSS Media query</li>
+        <li>Deployed with Heroku</li>
+      </ul>
+      <h2>Links:</h2>
+      <ul>
+        <li><a class="page-links" href="/">Link to this site</a></li>
+        <li><a class="page-links" href="#">Link to this project on Github</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<div id="proj-content-2" class="page-text proj-text">
+  <h1>Blog Site</h1>
+  <div class="container">
+    <img class="proj-images" src="images/proj2-blog.png" alt="">
+    <div class="proj-text col-sm col-lg">
+      <h2>Description:</h2>
+      <p>
+        Multipage Blog Website that utilizes a database to
+        store blog posts created by the user. Posts are time stamped and rendered on the main page.
+      </p>
+      <h2>Languages and Technologies Used:</h2>
+      <ul>
+        <li>Javascript, HTML, CSS</li>
+        <li>Mongo Atlas DB to store user persistent data (blog posts)</li>
+        <li>Bootstrap to utilize Navbar and some layout features</li>
+        <li>Set up using Node.js, express, and EJS templating to maintain common experience across pages</li>
+        <li>Also used body-parser and lo-dash packages</li>
+        <li>Deployed with Heroku</li>
+      </ul>
+      <h2>Links:</h2>
+      <ul>
+        <li><a class="page-links" href="https://radiant-mountain-46361.herokuapp.com/">Link to the blog site</a></li>
+        <li><a class="page-links" href="https://github.com/kivey7812/BlogSiteProject">Link to project on Github</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<div id="proj-content-3" class="page-text proj-text">
+  <h1>Mortgage Calculator App</h1>
+  <div class="container">
+    <img class="proj-images" src="images/budget.png" alt="">
+    <div class="proj-text col-sm col-lg">
+      <h2>Description:</h2>
+      <p>
+        An app that calculates a monthly mortgage payment, the total
+        amount paid over the life of the loan, and amount of interest paid
+        over a 30 year mortgage.
+      </p>
+      <p>The goal of this project was to practice CSS styling without bootstrap
+      and to practice implementing js and API's. There are two API's used on this app: (1) A quotes API that displays
+    a random quote about finance/investments/success and (2) The Google Charts API to create a pie chart of the results.</p>
+      <h2>Languages and Technologies Used:</h2>
+      <ul>
+        <li>Javascript, HTML, CSS, RESTful API's</li>
+        <li>Did NOT use any Bootstrap for this project so that I could focus on custom CSS</li>
+        <li>Set up using Node.js, express, body-parser and EJS templating</li>
+        <li>Deployed with Heroku</li>
+      </ul>
+      <h2>Links:</h2>
+      <ul>
+        <li><a class="page-links" href="https://hidden-wave-56561.herokuapp.com/">Link to the Calculator App</a></li>
+        <li><a class="page-links" href="https://github.com/kivey7812/MortgageCalc">Link to project on Github</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+
+
+<div id="proj-content-4" class="page-text proj-text">
+  <h1>Python Blackjack Card Game</h1>
+  <div class="container">
+    <img class="proj-images" src="https://www.pngmart.com/files/7/Python-Transparent-PNG.png" alt="">
+
+    <div class="proj-text col-sm col-lg">
+      <h2>Description:</h2>
+      <p>
+        A python program that allows the user to play Blackjack against
+        an AI dealer. User inputs name and amount of chips they want to play with.
+        User then specifies their bet for each hand. User can
+        play continuously until they run out of chips or can quit at any time.
+        This program used Object Oriented Programming with custom methods and classes in Python.
+        <br>
+        There is also validation/exception handling in place for all user input.
+
+      </p>
+      <h2>Languages and Technologies Used:</h2>
+      <ul>
+        <li>Python OOP</li>
+      </ul>
+      <h2>Links:</h2>
+      <ul>
+        <li><a class="page-links" href="https://github.com/kivey7812/blackjack-python">Github link</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+
+
+  <br>
+
+  <%- include("Partials/Footer"); -%>
